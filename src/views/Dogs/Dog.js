@@ -3,7 +3,7 @@ import { fetchDogById } from '../../services/dogs';
 import { useState, useEffect } from 'react';
 import DogDetail from '../../components/DogDeets/DogDetails';
 
-export default function Dog() {
+export default function Dog(props) {
   const [dog, setDog] = useState([]);
   const id = props.match.params.id;
 

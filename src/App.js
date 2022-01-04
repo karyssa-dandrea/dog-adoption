@@ -1,4 +1,7 @@
 import './App.css';
+import { BrowserRouter, NavLink, Route, Switch } from 'react-router-dom';
+import Dogs from './views/Dogs/Dogs';
+import Dog from './views/Dogs/Dog';
 
 function App() {
   return (
