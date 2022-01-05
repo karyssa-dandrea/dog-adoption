@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './DogDetail.css';
 
 export default function DogList({ dogs }) {
   return (
@@ -8,7 +9,6 @@ export default function DogList({ dogs }) {
         <div className="container">
           {dogs.map((dogs) => (
             <Link key={dogs.id} to={`/dogs/${dogs.id}`}>
-              {dogs.name}
               <img src={dogs.image}></img>
               <p>
                 {' '}

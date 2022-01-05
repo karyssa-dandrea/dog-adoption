@@ -1,4 +1,5 @@
 import React from 'react';
+import './DogDetail.css';
 
 export default function DogDetails({ dog }) {
   return (

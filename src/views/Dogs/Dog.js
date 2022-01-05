@@ -23,7 +23,6 @@ export default function Dog(props) {
 
   return (
     <div className="dog-deets">
-      {dog.name}
       <DogDetail dog={dog} />
     </div>
   );

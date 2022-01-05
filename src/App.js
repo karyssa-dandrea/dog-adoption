@@ -8,14 +8,11 @@ function App() {
     <div className="container">
       <BrowserRouter>
         <header>
-          <NavLink to="/dogs"> Adopt Us! </NavLink>
+          <NavLink to="/dogs"> Home </NavLink>
         </header>
         <Switch>
           <Route exact path="/dogs" component={Dogs} />
           <Route exact path="/dogs/:id" component={Dog} />
-          <Route exact path="/">
-            <h1>Adoption Available!</h1>
-          </Route>
         </Switch>
       </BrowserRouter>
     </div>
