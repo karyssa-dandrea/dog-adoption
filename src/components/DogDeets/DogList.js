@@ -8,7 +8,8 @@ export default function DogList({ dogs }) {
       <div className="dogs-list">
         <div className="container">
           {dogs.map((dogs) => (
-            <Link key={dogs.id} to={`/dogs/${dogs.id}`}>
+            <Link className="lists" key={dogs.id} to={`/dogs/${dogs.id}`}>
+              <h1>Meet {dogs.name}</h1>
               <img src={dogs.image}></img>
               <p>
                 {' '}

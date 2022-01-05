@@ -1,13 +1,15 @@
 .dogs-list {
   display: flex;
-  flex-direction: column;
-  padding: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 img {
   height: auto;
   width: 400px;
-  border-radius: 80%;
+  border-radius: 90%;
 }
 
 .dog-details {
@@ -15,4 +17,15 @@ img {
   flex-direction: column;
   padding: 10px;
   align-items: center;
+}
+
+.lists {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #3d405b;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
 }
