@@ -1,0 +1,18 @@
+.dogs-list {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+img {
+  height: auto;
+  width: 400px;
+  border-radius: 80%;
+}
+
+.dog-details {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+}

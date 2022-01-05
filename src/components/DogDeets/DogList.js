@@ -5,11 +5,18 @@ export default function DogList({ dogs }) {
   return (
     <>
       <div className="dogs-list">
-        {dogs.map((dogs) => (
-          <Link key={dogs.id} to={`/dogs/${dogs.id}`}>
-            {dogs.name}
-          </Link>
-        ))}
+        <div className="container">
+          {dogs.map((dogs) => (
+            <Link key={dogs.id} to={`/dogs/${dogs.id}`}>
+              {dogs.name}
+              <img src={dogs.image}></img>
+              <p>
+                {' '}
+                {dogs.name} is a(n) {dogs.age} year old {dogs.breed}
+              </p>
+            </Link>
+          ))}
+        </div>
       </div>
     </>
   );
