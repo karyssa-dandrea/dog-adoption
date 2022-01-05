@@ -5,6 +5,15 @@ exports[`should render dog details 1`] = `
   <div
     class="dog-deets"
   >
+    <div>
+      <header>
+        <a
+          href="/dogs"
+        >
+           Home 
+        </a>
+      </header>
+    </div>
     <div
       class="dog-details"
     >
