@@ -3,6 +3,7 @@ import { fetchDogById, updateDog } from '../../services/dogs';
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Dogform from '../../components/Form/Dogform';
+import Header from '../../components/Header/Header';
 
 export default function DogEdit() {
   const [dogs, setDogs] = useState({});
@@ -24,6 +25,7 @@ export default function DogEdit() {
   return (
     <div>
       <h1>Edit Dog</h1>
+      <Header />
       <Dogform {...dogs} buttonHandler={buttonHandler} />
     </div>
   );

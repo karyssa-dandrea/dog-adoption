@@ -1,5 +1,6 @@
 import React from 'react';
 import './DogDetail.css';
+import { Link } from 'react-router-dom';
 
 export default function DogDetails({ dog }) {
   return (
@@ -11,6 +12,10 @@ export default function DogDetails({ dog }) {
         {dog.name} is a(n) {dog.age} year old {dog.breed}
       </p>
       <p> {dog.bio}</p>
+
+      <Link key={dog.id} to={`/dogs/${dog.id}/edit`}>
+        Edit
+      </Link>
     </div>
   );
 }
