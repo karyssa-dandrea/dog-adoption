@@ -11,7 +11,7 @@ export default function Dogform({ name, bio, age, image, breed, buttonHandler, u
           type="text"
           value={name}
           onChange={(e) => {
-            updateDogState(e.target.value);
+            updateDogState('name', e.target.value);
           }}
         />
         <label>Bio:</label>
@@ -20,7 +20,7 @@ export default function Dogform({ name, bio, age, image, breed, buttonHandler, u
           type="text"
           value={bio}
           onChange={(e) => {
-            updateDogState(e.target.value);
+            updateDogState('bio', e.target.value);
           }}
         />
         <label>Age:</label>
@@ -29,7 +29,7 @@ export default function Dogform({ name, bio, age, image, breed, buttonHandler, u
           type="text"
           value={age}
           onChange={(e) => {
-            updateDogState(e.target.value);
+            updateDogState('age', e.target.value);
           }}
         />
         <label>Image:</label>
@@ -38,7 +38,7 @@ export default function Dogform({ name, bio, age, image, breed, buttonHandler, u
           type="text"
           value={image}
           onChange={(e) => {
-            updateDogState(e.target.value);
+            updateDogState('image', e.target.value);
           }}
         />
         <label>Breed:</label>
@@ -47,7 +47,7 @@ export default function Dogform({ name, bio, age, image, breed, buttonHandler, u
           type="text"
           value={breed}
           onChange={(e) => {
-            updateDogState(e.target.value);
+            updateDogState('breed', e.target.value);
           }}
         />
       </div>
