@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render list of dogs 1`] = `
+<div>
+  <div>
+    <div>
+      <header>
+        <a
+          href="/dogs"
+        >
+           Home 
+        </a>
+      </header>
+    </div>
+    <div
+      class="container"
+    >
+      <a
+        class="lists"
+        href="/dogs/3"
+      >
+        <h1>
+          Meet 
+          Benson
+        </h1>
+        <img
+          src="https://placedog.net/samples/205.jpg"
+        />
+        <p>
+          Benson
+           is a(n) 
+           year old 
+          Australian Shepard
+        </p>
+      </a>
+      <a
+        class="lists"
+        href="/dogs/6"
+      >
+        <h1>
+          Meet 
+          Ginny
+        </h1>
+        <img
+          src="https://placedog.net/samples/188.jpg"
+        />
+        <p>
+          Ginny
+           is a(n) 
+           year old 
+          Border Collie
+        </p>
+      </a>
+      <a
+        class="lists"
+        href="/dogs/4"
+      >
+        <h1>
+          Meet 
+          Maggie
+        </h1>
+        <img
+          src="https://placedog.net/samples/178.jpg"
+        />
+        <p>
+          Maggie
+           is a(n) 
+           year old 
+          Australian Shepard
+        </p>
+      </a>
+      <a
+        class="lists"
+        href="/dogs/1"
+      >
+        <h1>
+          Meet 
+          Nori
+        </h1>
+        <img
+          src="https://placedog.net/samples/197.jpg"
+        />
+        <p>
+          Nori
+           is a(n) 
+           year old 
+          Labrador Retriever 
+        </p>
+      </a>
+      <a
+        class="lists"
+        href="/dogs/2"
+      >
+        <h1>
+          Meet 
+          Tokio
+        </h1>
+        <img
+          src="https://placedog.net/samples/200.jpg"
+        />
+        <p>
+          Tokio
+           is a(n) 
+           year old 
+          Labradoodle
+        </p>
+      </a>
+      <a
+        class="lists"
+        href="/dogs/5"
+      >
+        <h1>
+          Meet 
+          Watson
+        </h1>
+        <img
+          src="https://placedog.net/samples/158.jpg"
+        />
+        <p>
+          Watson
+           is a(n) 
+           year old 
+          Labrador Retriever 
+        </p>
+      </a>
+    </div>
+  </div>
+</div>
+`;

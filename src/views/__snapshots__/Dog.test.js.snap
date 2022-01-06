@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render dog details 1`] = `
+<div>
+  <div
+    class="dog-deets"
+  >
+    <div>
+      <header>
+        <a
+          href="/dogs"
+        >
+           Home 
+        </a>
+      </header>
+    </div>
+    <div
+      class="dog-details"
+    >
+      <h1>
+        Tokio
+      </h1>
+      <img
+        src="https://placedog.net/samples/200.jpg"
+      />
+      <p>
+         
+        Tokio
+         is a(n) 
+         year old 
+        Labradoodle
+      </p>
+      <p>
+         
+        I'm a troublemaker, but a cute one!
+      </p>
+    </div>
+  </div>
+</div>
+`;
