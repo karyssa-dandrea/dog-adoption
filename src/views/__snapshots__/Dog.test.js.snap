@@ -12,6 +12,11 @@ exports[`should render dog details 1`] = `
         >
            Home 
         </a>
+        <a
+          href="/admin"
+        >
+           Admin
+        </a>
       </header>
     </div>
     <div

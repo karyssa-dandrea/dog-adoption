@@ -10,6 +10,11 @@ exports[`should render list of dogs 1`] = `
         >
            Home 
         </a>
+        <a
+          href="/admin"
+        >
+           Admin
+        </a>
       </header>
     </div>
     <div
@@ -74,6 +79,42 @@ exports[`should render list of dogs 1`] = `
       </a>
       <a
         class="lists"
+        href="/dogs/22"
+      >
+        <h1>
+          Meet 
+          Benny
+        </h1>
+        <img
+          src="adifj"
+        />
+        <p>
+          Benny
+           is a(n) 
+           year old 
+          1238
+        </p>
+      </a>
+      <a
+        class="lists"
+        href="/dogs/25"
+      >
+        <h1>
+          Meet 
+          Champ
+        </h1>
+        <img
+          src="https://placedog.net/1000/563?id=54"
+        />
+        <p>
+          Champ
+           is a(n) 
+           year old 
+          Cattle Dog
+        </p>
+      </a>
+      <a
+        class="lists"
         href="/dogs/8"
       >
         <h1>
@@ -108,6 +149,24 @@ exports[`should render list of dogs 1`] = `
           4
            year old 
           Weimaraner Mix
+        </p>
+      </a>
+      <a
+        class="lists"
+        href="/dogs/23"
+      >
+        <h1>
+          Meet 
+          Fluffy
+        </h1>
+        <img
+          src="https://placedog.net/1000/563?id=37"
+        />
+        <p>
+          Fluffy
+           is a(n) 
+           year old 
+          12
         </p>
       </a>
       <a
@@ -203,6 +262,24 @@ exports[`should render list of dogs 1`] = `
           4
            year old 
           Austrailian Cattle Dog
+        </p>
+      </a>
+      <a
+        class="lists"
+        href="/dogs/24"
+      >
+        <h1>
+          Meet 
+          Molly
+        </h1>
+        <img
+          src="https://placedog.net/1000/563?id=49"
+        />
+        <p>
+          Molly
+           is a(n) 
+           year old 
+          Beagle
         </p>
       </a>
       <a

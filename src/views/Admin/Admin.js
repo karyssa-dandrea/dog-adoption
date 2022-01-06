@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { insertDog } from '../../services/dogs';
 import DogForm from '../../components/Form/Dogform';
+import Header from '../../components/Header/Header';
 
 export default function Admin() {
   const [dog, setDog] = useState({});
@@ -18,6 +19,7 @@ export default function Admin() {
 
   return (
     <div className="admin">
+      <Header />
       <DogForm buttonHandler={buttonHandler} {...dog} updateDogState={updateDogState} />
     </div>
   );
