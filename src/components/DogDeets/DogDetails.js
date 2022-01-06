@@ -14,3 +14,8 @@ export default function DogDetails({ dog }) {
     </div>
   );
 }
+
+// create a button - edit and delete button
+//edit button will be a link - sends to edit view component
+// import link - Link to=
+// Usehistory hook
