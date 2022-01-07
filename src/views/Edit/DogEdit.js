@@ -7,6 +7,7 @@ import Header from '../../components/Header/Header';
 
 export default function DogEdit() {
   const [dog, setDog] = useState({});
+  const [message, setMessage] = useState('');
 
   const params = useParams();
   useEffect(() => {
@@ -19,6 +20,7 @@ export default function DogEdit() {
 
   const buttonHandler = async () => {
     await updateDog(params.id, dog);
+    setMessage('Success!');
   };
 
   const updateDogState = (key, value) => {
@@ -39,6 +41,7 @@ export default function DogEdit() {
         buttonHandler={buttonHandler}
         updateDogState={updateDogState}
         deleteButton={deleteButton}
+        message={message}
       />
     </div>
   );

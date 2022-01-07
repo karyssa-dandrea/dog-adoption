@@ -2,10 +2,11 @@ import React from 'react';
 import './DogDetail.css';
 import { Link } from 'react-router-dom';
 
-export default function DogDetails({ dog, deleteButton }) {
+export default function DogDetails({ dog, deleteButton, message }) {
   return (
     <div className="dog-details">
       <h1>{dog.name}</h1>
+      <p>{message}</p>
       <img src={dog.image}></img>
       <p>
         {' '}
