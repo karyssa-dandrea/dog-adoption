@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render dog details 1`] = `
+<div>
+  <div
+    class="dog-deets"
+  >
+    <div
+      class="header"
+    >
+      <header>
+        <a
+          href="/dogs"
+        >
+           Home 
+        </a>
+        <a
+          href="/admin"
+        >
+           Admin
+        </a>
+      </header>
+    </div>
+    <div
+      class="dog-details"
+    >
+      <h1>
+        Tokio
+      </h1>
+      <p />
+      <img
+        src="https://placedog.net/samples/200.jpg"
+      />
+      <p>
+         
+        Tokio
+         is a(n) 
+        1
+         year old 
+        Labradoodle
+      </p>
+      <p>
+         
+        I'm a troublemaker, but a cute one!
+      </p>
+      <a
+        href="/dogs/2/edit"
+      >
+        Edit
+      </a>
+      <button>
+         Delete
+      </button>
+    </div>
+  </div>
+</div>
+`;
