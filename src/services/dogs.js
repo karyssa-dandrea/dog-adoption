@@ -15,7 +15,7 @@ export async function insertDog(dog) {
   return checkError(resp);
 }
 
-export async function updateDog(id, name, bio, image, breed) {
-  const resp = await client.from('dogs').update({ name, bio, image, breed }).eq('id', id);
+export async function updateDog(id, dog) {
+  const resp = await client.from('dogs').update(dog).match({ id });
   return checkError(resp);
 }

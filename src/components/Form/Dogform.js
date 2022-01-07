@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Dogform({ name, bio, age, image, breed, buttonHandler, updateDogState }) {
   return (
-    <form>
+    <div className="form">
       <h2>Add Dog Details</h2>
       <div className="dog-form">
         <label>Name</label>
@@ -52,8 +52,8 @@ export default function Dogform({ name, bio, age, image, breed, buttonHandler, u
         />
       </div>
       <div className="button">
-        <button onClick={buttonHandler}>Add</button>
+        <button onClick={buttonHandler}>Save</button>
       </div>
-    </form>
+    </div>
   );
 }
