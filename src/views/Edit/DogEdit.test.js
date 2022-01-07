@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import DogEdit from '../../views/Edit/DogEdit';
 import { MemoryRouter } from 'react-router-dom';
 
-test('should render dog details', async () => {
+test('should render dog details in a form', async () => {
   const { container } = render(
     <MemoryRouter>
       <DogEdit />

@@ -84,3 +84,88 @@ exports[`should render dog details 1`] = `
   </div>
 </div>
 `;
+
+exports[`should render dog details in a form 1`] = `
+<div>
+  <div>
+    <h1>
+      Edit Dog
+    </h1>
+    <div
+      class="header"
+    >
+      <header>
+        <a
+          href="/dogs"
+        >
+           Home 
+        </a>
+        <a
+          href="/admin"
+        >
+           Admin
+        </a>
+      </header>
+    </div>
+    <div
+      class="form"
+    >
+      <h2>
+        Add Dog Details
+      </h2>
+      <p />
+      <div
+        class="dog-form"
+      >
+        <label>
+          Name
+        </label>
+        <input
+          placeholder="name"
+          type="text"
+          value=""
+        />
+        <label>
+          Bio:
+        </label>
+        <input
+          placeholder="bio"
+          type="text"
+          value=""
+        />
+        <label>
+          Age:
+        </label>
+        <input
+          placeholder="age"
+          type="text"
+          value=""
+        />
+        <label>
+          Image:
+        </label>
+        <input
+          placeholder="image"
+          type="text"
+          value=""
+        />
+        <label>
+          Breed:
+        </label>
+        <input
+          placeholder="breed"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="button"
+      >
+        <button>
+          Save
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
