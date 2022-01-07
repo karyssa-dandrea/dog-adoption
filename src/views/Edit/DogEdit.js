@@ -1,5 +1,5 @@
 import React from 'react';
-import { fetchDogById, updateDog } from '../../services/dogs';
+import { fetchDogById, updateDog, deleteDog } from '../../services/dogs';
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Dogform from '../../components/Form/Dogform';
@@ -26,11 +26,20 @@ export default function DogEdit() {
     setDog({ ...dog });
   };
 
+  const deleteButton = async () => {
+    await deleteDog(dog.id);
+  };
+
   return (
     <div>
       <h1>Edit Dog</h1>
       <Header />
-      <Dogform {...dog} buttonHandler={buttonHandler} updateDogState={updateDogState} />
+      <Dogform
+        {...dog}
+        buttonHandler={buttonHandler}
+        updateDogState={updateDogState}
+        deleteButton={deleteButton}
+      />
     </div>
   );
 }

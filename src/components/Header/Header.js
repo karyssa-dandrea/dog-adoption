@@ -4,7 +4,7 @@ import './Header.css';
 
 export default function Header() {
   return (
-    <div>
+    <div className="header">
       <header>
         <NavLink to="/dogs"> Home </NavLink>
         <NavLink to="/admin"> Admin</NavLink>
