@@ -11,6 +11,8 @@ exports[`should render dog details in a form 1`] = `
     >
       <header>
         <a
+          aria-current="page"
+          class="active"
           href="/dogs"
         >
            Home 
@@ -38,7 +40,7 @@ exports[`should render dog details in a form 1`] = `
         <input
           placeholder="name"
           type="text"
-          value=""
+          value="Maggie"
         />
         <label>
           Bio:
@@ -46,7 +48,7 @@ exports[`should render dog details in a form 1`] = `
         <input
           placeholder="bio"
           type="text"
-          value=""
+          value="Too cute to care!"
         />
         <label>
           Age:
@@ -54,7 +56,7 @@ exports[`should render dog details in a form 1`] = `
         <input
           placeholder="age"
           type="text"
-          value=""
+          value="2 months"
         />
         <label>
           Image:
@@ -62,7 +64,7 @@ exports[`should render dog details in a form 1`] = `
         <input
           placeholder="image"
           type="text"
-          value=""
+          value="https://placedog.net/samples/178.jpg"
         />
         <label>
           Breed:
@@ -70,7 +72,7 @@ exports[`should render dog details in a form 1`] = `
         <input
           placeholder="breed"
           type="text"
-          value=""
+          value="Australian Shepard"
         />
       </div>
       <div
