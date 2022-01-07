@@ -9,9 +9,13 @@ export default function Admin() {
   const [message, setMessage] = useState('');
 
   const buttonHandler = async () => {
-    await insertDog(dog);
-    setDog({});
-    setMessage('Success!');
+    try {
+      await insertDog(dog);
+      setDog({});
+      setMessage('Success!');
+    } catch {
+      setMessage('Something went wrong!');
+    }
   };
 
   const updateDogState = (key, value) => {

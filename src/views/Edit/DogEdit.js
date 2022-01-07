@@ -19,8 +19,12 @@ export default function DogEdit() {
   }, [params.id]);
 
   const buttonHandler = async () => {
-    await updateDog(params.id, dog);
-    setMessage('Success!');
+    try {
+      await updateDog(params.id, dog);
+      setMessage('Success!');
+    } catch {
+      setMessage('Something went wrong!');
+    }
   };
 
   const updateDogState = (key, value) => {
